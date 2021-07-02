@@ -1,0 +1,149 @@
+html {
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(151, 151, 151), white);
+    font-family: 'Castoro';
+    opacity: 1.0;
+    -webkit-transition: background 1.5s linear;
+    -moz-transition: background 1.5s linear;
+    -o-transition: background 1.5s linear;
+    -ms-transition: background 1.5s linear;
+    transition: background 1.5s linear;
+}
+
+.main {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    margin: 220px auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: none;
+    border-color: black;
+}
+
+.login {
+    padding-top: 50px;
+    color: black;
+    font-family: 'Castoro';
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.un {
+    width: 77%;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: transparent;
+    padding: 10px 20px;
+    border: black;
+    border-radius: none;
+    outline: black;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 0px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Castoro';
+}
+
+form.form1 {
+    padding-top: 35px;
+}
+
+.pass {
+    width: 77%;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-radius: none;
+    outline: #000000;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Castoro';
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: none;
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Castoro';
+    margin-left: 34%;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white;
+}
+
+.forgot {
+    font-family: 'Castoro';
+    color: #000000a8;
+    padding-top: 30px;
+}
+
+.submit {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: black;
+    text-decoration: none
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
